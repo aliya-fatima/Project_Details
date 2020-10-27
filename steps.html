@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Steps in Project</title>
+</head>
+<body>
+Down vote
+.progress {
+    width: 400px;
+}
+.progress header span {
+    color: #666;
+    float: right;
+}
+.progress .bar {
+    position: relative;
+    background-color: #ccc;
+}
+.progress .bar .percent {
+    color: white;
+    background-color: #0c0;
+    width: 70%;
+}
+.progress .bar .ref {
+    position: absolute;
+    left: 80%;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: black;
+}
+.progress .bar .ref:before {
+    content: attr(data-ref);
+    position: absolute;
+    width: 100px;
+    left: -50px;
+    top: 100%;
+    color: #888;
+    text-align: center;
+}
+<div class="progress">
+    <header><b>April 2015</b><span>$350 Left</span></header>
+    <div class="bar">
+        <div class="percent">$950 of $1,300</div>
+        <div class="ref" data-ref="TODAY"></div>
+    </div>
+</div>
+</body>
+</html>
