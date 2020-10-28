@@ -1,48 +1,207 @@
 <html>
-<head>
-<title>Steps in Project</title>
-</head>
-<body>
-Down vote
-.progress {
-    width: 400px;
-}
-.progress header span {
-    color: #666;
-    float: right;
-}
-.progress .bar {
-    position: relative;
-    background-color: #ccc;
-}
-.progress .bar .percent {
-    color: white;
-    background-color: #0c0;
-    width: 70%;
-}
-.progress .bar .ref {
-    position: absolute;
-    left: 80%;
-    top: 0;
-    width: 1px;
-    height: 100%;
-    background-color: black;
-}
-.progress .bar .ref:before {
-    content: attr(data-ref);
-    position: absolute;
-    width: 100px;
-    left: -50px;
-    top: 100%;
-    color: #888;
-    text-align: center;
-}
-<div class="progress">
-    <header><b>April 2015</b><span>$350 Left</span></header>
-    <div class="bar">
-        <div class="percent">$950 of $1,300</div>
-        <div class="ref" data-ref="TODAY"></div>
-    </div>
-</div>
-</body>
+    <head>
+        <title>Steps</title>
+    </head>
+    <body>
+        <br>
+        <br>
+        <h1 style="float:left">1</h1>
+        <div class="container">
+            <div  id="progressBar">
+                <div id="progressBarFull"><h1 style="color:brown;font-size: medium;font-size: 20px;">Requirement Analysis</h1></div>     
+            </div>
+        </div>
+        <h1 style="float:left">2</h1>
+        <div  class="container2">
+            <div  id="progressBar2">
+                <div id="progressBarFull2"><h1 style="color:green;font-size: medium;font-size: 20px;">Design</h1></div>     
+            </div>
+        </div>
+        <h1 style="float:left">3</h1>
+        <div  class="container3">
+            <div  id="progressBar3">
+                <div id="progressBarFull3"><h1 style="color:crimson;font-size: medium;font-size: 20px;">Implementation & Coding</h1></div>     
+            </div>
+        </div>
+        <h1 style="float:left">4</h1>
+        <div  class="container4">
+            <div  id="progressBar4">
+                <div id="progressBarFull4"><h1 style="color:orange;font-size: medium;font-size: 20px;">Testing</h1></div>     
+            </div>
+        </div>
+        <h1 style="float:left">5</h1>
+        <div  class="container5">
+            <div  id="progressBar5">
+                <div id="progressBarFull5"><h1 style="color:blue;font-size: medium;font-size: 20px;">Maintainence</h1></div>     
+            </div>
+        </div>
+    </body>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        .container 
+        {
+            width: 200vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            max-width: 80rem;
+            margin: 0 auto;
+            padding: 0rem;
+        }
+        .container > * 
+        {
+            width: 0%;
+        }
+        .container2 
+        {
+            width: 200vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            max-width: 80rem;
+            margin: 0 auto;
+            padding: 0rem;
+        }
+        .container2 > * 
+        {
+            width: 100%;
+        }
+        .container3 
+        {
+            width: 200vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            max-width: 80rem;
+            margin: 0 auto;
+            padding: 0rem;
+        }
+        .container3 > * 
+        {
+            width: 100%;
+        }
+        .container4 
+        {
+            width: 200vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            max-width: 80rem;
+            margin: 0 auto;
+            padding: 0rem;
+        }
+        .container4 > * 
+        {
+            width: 100%;
+        }
+        .container5 
+        {
+            width: 200vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            max-width: 80rem;
+            margin: 0 auto;
+            padding: 0rem;
+        }
+        .container5 > * 
+        {
+            width: 100%;
+        }
+        #progressBar 
+        {
+            width: 40rem;
+            height: 4rem;
+            border: 0.3rem solid black;
+            margin-top: 0rem;
+            background-color: #fff;
+        }
+        #progressBarFull 
+        {
+            height: 3.4rem;
+            background-color:burlywood;
+            width: 0%;
+        }
+        #progressBar2 
+        {
+            width: 40rem;
+            height: 4rem;
+            border: 0.3rem solid black;
+            margin-top: 0rem;
+            background-color: #fff;
+        }
+        #progressBarFull2
+        {
+            height: 3.4rem;
+            background-color:greenyellow;
+            width: 0%;
+        }
+        #progressBar3
+        {
+            width: 40rem;
+            height: 4rem;
+            border: 0.3rem solid black;
+            margin-top: 0rem;
+            background-color: #fff;
+        }
+        #progressBarFull3
+        {
+            height: 3.4rem;
+            background-color:pink;
+            width: 0%;
+        }
+        #progressBar4
+        {
+            width: 40rem;
+            height: 4rem;
+            border: 0.3rem solid black;
+            margin-top: 0rem;
+            background-color: #fff;
+        }
+        #progressBarFull4
+        {
+            height: 3.4rem;
+            background-color:navajowhite;
+            width: 0%;
+        }
+        #progressBar5
+        {
+            width: 40rem;
+            height: 4rem;
+            border: 0.3rem solid black;
+            margin-top: 0rem;
+            background-color: #fff;
+        }
+        #progressBarFull5
+        {
+            height: 3.4rem;
+            background-color:aqua;
+            width: 0%;
+        }
+    </style>
+    <script type="text/javascript">
+        const progressBarFull = document.getElementById('progressBarFull');
+        let questionCounter = 10;
+        const MAX_QUESTIONS = 10;
+        progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+        const progressBarFull2 = document.getElementById('progressBarFull2');
+        let questionCounter2 = 8;
+        const MAX_QUESTIONS2 = 10;
+        progressBarFull2.style.width = `${(questionCounter2 / MAX_QUESTIONS) * 100}%`;
+        const progressBarFull3 = document.getElementById('progressBarFull3');
+        let questionCounter3 = 4;
+        const MAX_QUESTIONS3 = 10;
+        progressBarFull3.style.width = `${(questionCounter3 / MAX_QUESTIONS) * 100}%`;
+        const progressBarFull4 = document.getElementById('progressBarFull4');
+        let questionCounter4 = 2;
+        const MAX_QUESTIONS4 = 10;
+        progressBarFull4.style.width = `${(questionCounter4 / MAX_QUESTIONS) * 100}%`;
+        const progressBarFull5 = document.getElementById('progressBarFull5');
+        let questionCounter5 = 0;
+        const MAX_QUESTIONS5 = 10;
+        progressBarFull5.style.width = `${(questionCounter5 / MAX_QUESTIONS) * 100}%`;
+    </script>
 </html>
