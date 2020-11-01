@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>ApprovalandDisapproval</title>
+	</head>
+	<body>
+		<a href="project1.html">PROJECT 1</a>
+		<button style="color: red;border: darkred;font-size: 20px;" formaction="" type=button>Disapprove</button>
+		<button style="color:green;border: darkgreen;font-size: 20px;" formaction="" type=button>Approve</button>
+		</br>
+		<a href="project2.html">PROJECT 2</a>
+		<button style="color: red;border: darkred;font-size: 20px;" formaction="" type=button>Disapprove</button>
+		<button style="color:green;border: darkgreen;font-size: 20px;" formaction="" type=button>Approve</button>
+		</br>
+		<a href="project3.html">PROJECT 3</a>
+		<button style="color: red;border: darkred;font-size: 20px;" formaction="" type=button>Disapprove</button>
+		<button style="color:green;border: darkgreen;font-size: 20px;" formaction="" type=button>Approve</button>
+		</br>
+		<a href="project4.html">PROJECT 4</a>
+		<button style="color: red;border: darkred;font-size: 20px;" formaction="" type=button>Disapprove</button>
+		<button style="color:green;border: darkgreen;font-size: 20px;" formaction="" type=button>Approve</button>
+		</br>
+		<a href="project5.html">PROJECT 5</a>
+		<button style="color: red;border: darkred;font-size: 20px;" formaction="" type=button>Disapprove</button>
+		<button style="color:green;border: darkgreen;font-size: 20px;" formaction="" type=button>Approve</button>
+	</body>
+	<style>
+		a
+		{
+			font-size: 30px;	
+		}
+	</style>
+</html>
