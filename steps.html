@@ -3,113 +3,47 @@
         <title>Steps</title>
     </head>
     <body>
-        <br>
-        <br>
-        <h1 style="float:left">1</h1>
-        <div class="container">
-            <div  id="progressBar">
-                <div id="progressBarFull"><h1 style="color:brown;font-size: medium;font-size: 20px;">Requirement Analysis</h1></div>     
-            </div>
-        </div>
-        <h1 style="float:left">2</h1>
-        <div  class="container2">
-            <div  id="progressBar2">
-                <div id="progressBarFull2"><h1 style="color:green;font-size: medium;font-size: 20px;">Design</h1></div>     
-            </div>
-        </div>
-        <h1 style="float:left">3</h1>
-        <div  class="container3">
-            <div  id="progressBar3">
-                <div id="progressBarFull3"><h1 style="color:crimson;font-size: medium;font-size: 20px;">Implementation & Coding</h1></div>     
-            </div>
-        </div>
-        <h1 style="float:left">4</h1>
-        <div  class="container4">
-            <div  id="progressBar4">
-                <div id="progressBarFull4"><h1 style="color:orange;font-size: medium;font-size: 20px;">Testing</h1></div>     
-            </div>
-        </div>
-        <h1 style="float:left">5</h1>
-        <div  class="container5">
-            <div  id="progressBar5">
-                <div id="progressBarFull5"><h1 style="color:blue;font-size: medium;font-size: 20px;">Maintainence</h1></div>     
-            </div>
-        </div>
+        <h1 style="color:brown;font-size: 30px;"><b>1.</b>Requirement Analysis</h1>
+        <form action="">
+            <label for=""></label>  <input type="text" id="" size="1" name="">
+        </form>
+        <div  id="progressBar">
+        <div id="progressBarFull">     
+        </div></div>
+        <h1 style="color:green;font-size: 30px;"><b>2.</b>Design</h1>
+        <form action="">
+            <label for=""></label>  <input type="text" id="" size="1" name="">
+        </form>
+        <div  id="progressBar2">
+        <div id="progressBarFull2">     
+        </div></div>
+        <h1 style="color:crimson;font-size: 30px;"><b>3.</b>Implementation & Coding</h1>
+        <form action="">
+            <label for=""></label>  <input type="text" id="" size="1" name="">
+        </form>
+        <div  id="progressBar3">
+        <div id="progressBarFull3">     
+        </div></div>
+        <h1 style="color:orange;font-size: 30px;"><b>4.</b>Testing</h1>
+        <form action="">
+            <label for=""></label>  <input type="text" id="" size="1" name="">
+        </form>
+        <div  id="progressBar4">
+        <div id="progressBarFull4">     
+        </div></div>
+        <h1 style="color:blue;font-size: 30px;"><b>5.</b>Maintainence</h1>
+        <form action="">
+            <label for=""></label>  <input type="text" id="" size="1" name="">
+        </form>
+        <div  id="progressBar5">
+        <div id="progressBarFull5">     
+        </div></div>    
     </body>
     <style>
-        * {
+        * 
+        {
             box-sizing: border-box;
             margin: 0;
-        }
-        .container 
-        {
-            width: 200vw;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            max-width: 80rem;
-            margin: 0 auto;
-            padding: 0rem;
-        }
-        .container > * 
-        {
-            width: 0%;
-        }
-        .container2 
-        {
-            width: 200vw;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            max-width: 80rem;
-            margin: 0 auto;
-            padding: 0rem;
-        }
-        .container2 > * 
-        {
-            width: 100%;
-        }
-        .container3 
-        {
-            width: 200vw;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            max-width: 80rem;
-            margin: 0 auto;
-            padding: 0rem;
-        }
-        .container3 > * 
-        {
-            width: 100%;
-        }
-        .container4 
-        {
-            width: 200vw;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            max-width: 80rem;
-            margin: 0 auto;
-            padding: 0rem;
-        }
-        .container4 > * 
-        {
-            width: 100%;
-        }
-        .container5 
-        {
-            width: 200vw;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            max-width: 80rem;
-            margin: 0 auto;
-            padding: 0rem;
-        }
-        .container5 > * 
-        {
-            width: 100%;
         }
         #progressBar 
         {
@@ -184,24 +118,24 @@
     </style>
     <script type="text/javascript">
         const progressBarFull = document.getElementById('progressBarFull');
-        let questionCounter = 10;
-        const MAX_QUESTIONS = 10;
+        let questionCounter = 100;
+        const MAX_QUESTIONS = 100;
         progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
         const progressBarFull2 = document.getElementById('progressBarFull2');
-        let questionCounter2 = 8;
-        const MAX_QUESTIONS2 = 10;
+        let questionCounter2 = 80;
+        const MAX_QUESTIONS2 = 100;
         progressBarFull2.style.width = `${(questionCounter2 / MAX_QUESTIONS) * 100}%`;
         const progressBarFull3 = document.getElementById('progressBarFull3');
-        let questionCounter3 = 4;
-        const MAX_QUESTIONS3 = 10;
+        let questionCounter3 = 40;
+        const MAX_QUESTIONS3 = 100;
         progressBarFull3.style.width = `${(questionCounter3 / MAX_QUESTIONS) * 100}%`;
         const progressBarFull4 = document.getElementById('progressBarFull4');
-        let questionCounter4 = 2;
-        const MAX_QUESTIONS4 = 10;
+        let questionCounter4 = 20;
+        const MAX_QUESTIONS4 = 100;
         progressBarFull4.style.width = `${(questionCounter4 / MAX_QUESTIONS) * 100}%`;
         const progressBarFull5 = document.getElementById('progressBarFull5');
         let questionCounter5 = 0;
-        const MAX_QUESTIONS5 = 10;
+        const MAX_QUESTIONS5 = 100;
         progressBarFull5.style.width = `${(questionCounter5 / MAX_QUESTIONS) * 100}%`;
     </script>
 </html>
